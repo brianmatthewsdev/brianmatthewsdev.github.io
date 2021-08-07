@@ -5,7 +5,7 @@ project:
   name: "{Brian Matthews Dev}"
   owner: "{project_owner}"
   repo: "{project_repo}"
-  version: "{project_version}"
+  version: "{1.0.1}"
 
 collections:
   api:
