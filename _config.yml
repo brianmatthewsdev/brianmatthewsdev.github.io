@@ -26,22 +26,22 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Brian Matthews
   image             : https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80
-  behance           : your_username
+  # behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : brianmatthewsdev@gmail.com
+  facebook          : brian.matthews.dev
+  github            : brianmatthewsdev
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  # linkedin          : your_username
+  # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  # twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
