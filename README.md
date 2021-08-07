@@ -1,167 +1,89 @@
-# programming-pages
+# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
-a Jekyll theme for publishing code documentation to GitHub pages
+[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
+[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
+[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
 
-> See **programming pages** used to document itself here: https://pixeldroid.github.io/programming-pages/
+![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
-[![screenshot][screenshot]][programming-pages-docs]
+![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
 
-<br/>
+TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
+**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
 
-[installation](#installation) | [usage](#usage) | [building](#building) | [contributing](#contributing)
+## Features
 
+- Responsive
+- Semantic HTML
+- Skins
+- Highlight Theme
+- Internationalization
+- Search
+- Table of contents
+- Authors
+- Additional styles (alert, tag, image, icon, button, grid, etc)
+- Extensions (audios, videos, slides, demos)
+- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
+- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
+- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
+- Pageview ([LeanCloud](https://leancloud.cn/))
+- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
+- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
 
-## installation
+## Skins
 
-### as a remote theme
+TeXt has 6 built-in skins, you can also set up your own skin.
 
-Specify `pixeldroid/programming-pages` as your remote theme in `_config.yml`:
+| `default` | `dark` | `forest` |
+| --- |  --- | --- |
+| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
 
-```yml
-plugins:
-  - jekyll-remote-theme
+| `ocean` | `chocolate` | `orange` |
+| --- |  --- | --- |
+| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
 
-remote_theme: pixeldroid/programming-pages
-```
+### Highlight Theme
 
-### as a gem
+TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
 
-Follow the Jekyll directions for [installing a gem-based theme][jekyll-theme]
+| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
+| --- |  --- | --- | --- |  --- |
+| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
 
-`Gemfile`:
+## Documentation
 
-```ruby
-gem 'programming-pages'
-```
+### Start
 
-`_config.yml`:
+- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
+- [Update from 1.x to 2.x](https://tianqi.name/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
 
-```yml
-theme: programming-pages
-```
+### Customization
 
-### as a local copy of the files
+- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
+- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
+- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
+- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
+- [Authors](https://tianqi.name/jekyll-TeXt-theme/docs/en/authors)
+- [Internationalization](https://tianqi.name/jekyll-TeXt-theme/docs/en/i18n)
 
-1. Download the latest [release][releases]
-1. Extract it into your project under a folder of your choice (e.g. `docs/`)
+### Content
 
+- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
+- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
+- [Extensions](https://tianqi.name/jekyll-TeXt-theme/docs/en/extensions)
+- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
 
-## usage
+## Demo Pages
 
-> first: <br>
-> 1. [Configure a publishing source for GitHub Pages][ghpages-howto] so GitHub knows where to find your documentation.
+| Name | Description |
+| --- | --- |
+| [Home](https://tianqi.name/jekyll-TeXt-theme/test/) | Home page |
+| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | Archive page |
+| [Layout Examples](https://tianqi.name/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
 
-1. [Author documentation][author-documentation]
-1. [Push to GitHub][push-to-github]
-1. Visit your documentation site at https://&lt;`username`&gt;.github.io/&lt;`project`&gt;
-1. _repeat_
+## License
 
-<br>
-
----
-
-> If you just want to use the theme, you can stop reading here. 
-> The directions below are only useful if you're interested in building the theme from source. <br>
-
----
-
-<br>
-
-## building
-
-**programming pages** depends on [Jekyll][jekyll], [Semantic UI][semantic], and [jQuery][jquery].
-The dependencies are all captured and coordinated in the source of this project,
-but if you want to update a dependency or change its configuration,
-you'll need to be able to build them from source.
-
-### building the static site locally
-
-> first: <br>
-> 1. [install jekyll][jekyll-install] and the [github-pages gem][ghpages-install]: `bundle install`
-
-```console
-rake docs
-open http://localhost:4000/
-```
-
-### generating the semantic ui files
-
-> first: <br>
-> 1. ensure you can [build semantic ui][semantic-build] (requires nodejs, npm, gulp): `gulp build`
-> 1. check out the [programming-pages branch of the pixeldroid fork][semantic-custom] of semantic ui
-
-```console
-rake semantic['/path/to/programming-pages-semantic']
-```
-
-#### semantic ui modules
-
-The Semantic UI modules required by this project are declared in `build/semantic/semantic.json`.
-
-### generating the jQuery file
-
-> first <br>
-> 1. ensure you can [build jQuery][jquery-build] (requires nodejs, grunt): `grunt default`
-
-```console
-grunt custom:-ajax,-wrap remove_map_comment
-cp /path/to/jquery/dist/jquery.min.js /path/to/programming-pages/_includes/scripts/jquery/jquery-<version>.custom.min.js
-```
-
-Don't forget to update `assets/site.js` with the new filename.
-
-#### jQuery modules
-
-> Smaller custom subsets of the jQuery library can be built by excluding unwanted modules.
-> (see https://github.com/jquery/jquery#modules)
-
-This project excludes the following unused modules to reduce file size:
-
-##### excluded
-- `ajax`
-- `wrap`
-
-##### required
-- `attr`
-- `classes`
-- `core`
-- `css`
-- `data`
-- `deferred` (required for `effects`)
-- `deprecated` (for jQuery Address's use of `bind`)
-- `dimensions`
-- `effects`
-- `events`
-- `filtering`
-- `init`
-- `manipulation`
-- `offsets`
-- `parseHTML`
-- `prop`
-- `ready`
-- `traversing`
-- `val`
-
-## contributing
-
-[Pull requests][pull-requests] for improved documentation, bug fixes and useful features are all welcome. :gift_heart:
-
-
-
-[author-documentation]: https://pixeldroid.github.io/programming-pages/guides/Authoring-Documentation/#/guides/ "Authoring documentation using the programming pages site template"
-[ghpages-howto]: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/ "How to Configure a publishing source for GitHub Pages"
-[ghpages-install]: https://github.com/github/pages-gem "GitHub Pages Ruby Gem"
-[jekyll]: https://jekyllrb.com/ "Simple, blog-aware, static sites"
-[jekyll-install]: https://jekyllrb.com/docs/installation/ "How to install Jekyll"
-[jekyll-theme]: https://jekyllrb.com/docs/themes/#installing-a-theme "Installing a gem-based theme"
-[jquery]: https://github.com/jquery/jquery#how-to-build-your-own-jquery "jQuery is a fast, small, and feature-rich JavaScript library"
-[jquery-build]: https://github.com/jquery/jquery#how-to-build-your-own-jquery "How to build your own jQuery"
-[programming-pages-docs]: https://pixeldroid.github.io/programming-pages/ "a Jekyll theme for publishing code documentation to GitHub pages"
-[pull-requests]: https://github.com/pixeldroid/programming-pages/pulls "Pull requests for the Programming Pages template project"
-[push-to-github]: https://help.github.com/articles/pushing-to-a-remote/ "Pushing to a remote"
-[releases]: https://github.com/pixeldroid/programming-pages/releases "Packaged releases of the Programming Pages template"
-[screenshot]: screenshot.png "screenshot of a programming pages generated site"
-[semantic]: https://semantic-ui.com/ "Semantic is a UI component framework based around useful principles from natural language"
-[semantic-build]: https://semantic-ui.com/introduction/build-tools.html "Semantic UI build tools"
-[semantic-custom]: https://github.com/pixeldroid/Semantic-UI/tree/programming-pages "programming-pages branch of Semantic UI"
+TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
