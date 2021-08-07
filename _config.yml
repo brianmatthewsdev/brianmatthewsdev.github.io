@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Brian Matthews
-  image             : https://drive.google.com/file/d/1_e9ZbKTuvEtoGnYr9Dyfhc6hxO8LDcOm/view?usp=sharing
+  image             : /data/imgs/admin.jpg
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
