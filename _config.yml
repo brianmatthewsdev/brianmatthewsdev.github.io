@@ -2,7 +2,7 @@
 # default site settings
 # configure these values for your project
 project:
-  name: "{project_name}"
+  name: "Brian Matthews Dev"
   owner: "{project_owner}"
   repo: "{project_repo}"
   version: "{project_version}"
